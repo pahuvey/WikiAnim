@@ -1,4 +1,4 @@
-@CHARSET "ISO-8859-1";
+ @CHARSET "ISO-8859-1";
 
 
 body {
@@ -18,10 +18,10 @@ code {
   			text-align: center;
   			margin: auto;
   			height: 200px;
-  			
-  			
+
+
 		}
-		
+
 header,
 section,
 nav,
@@ -33,21 +33,21 @@ nav {
 	float: left
 	width: 30%;
 }
-			
+
 section {
  			 float: left;
   			width: 30%;
-  			
-  			
+
+
 					}
-					
+
 article {
   			float: left;
   			width: 100%;
 		}
-		
+
 footer {
-			
+
  			 clear: both;
   			margin-bottom: 0;
 				}
