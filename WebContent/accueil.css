@@ -1,0 +1,53 @@
+ @CHARSET "ISO-8859-1";
+
+
+body {
+	margin: 0;
+	background: linear-gradient(45deg, #49a09d, #5f2c82);
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+code {
+  			background: rgba(255,255,255,0.3);
+  			border-radius: 4px;
+  			color: #fff;
+  			display: block;
+  			font: Arial ;
+  			padding: 24px 15px;
+  			text-align: center;
+  			margin: auto;
+  			height: 200px;
+
+
+		}
+
+header,
+section,
+nav,
+aside,
+footer {
+ 		 	margin: 0 1.5% 50px 1.5%;
+			}
+nav {
+	float: left
+	width: 30%;
+}
+
+section {
+ 			 float: left;
+  			width: 30%;
+
+
+					}
+
+article {
+  			float: left;
+  			width: 100%;
+		}
+
+footer {
+
+ 			 clear: both;
+  			margin-bottom: 0;
+				}

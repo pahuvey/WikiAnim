@@ -5,5 +5,6 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_101"/>
+	<classpathentry kind="lib" path="C:/Users/Administrateur/Downloads/apache-tomcat-8.5.6-windows-x64/apache-tomcat-8.5.6/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

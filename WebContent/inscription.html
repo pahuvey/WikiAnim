@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="Inscription.css" />
+<title>Wiki Anim</title>
+<style type="text/css">
+
+	div {	margin-bottom: 10px; }
+	h1 { 	font-family: COMIC SANS MS;
+				width: 800px;
+				font-size: 40px; /* Titres de 40 pixels */
+				color: black;
+				border: 2px solid lightblue;
+				background: rgba(174, 225, 242, 0.8);
+	    	border-radius: 5px;
+				margin-bottom: 80px; }
+	h2 { 	font-family: COMIC SANS MS;
+				width: 300px;
+				font-size: 30px; /* Titres de 40 pixels */
+				color: black;
+				border: 2px solid lightblue;
+				background: rgba(174, 225, 242, 0.8);
+				border-radius: 5px;
+				margin-bottom: 80px; }
+
+	div.input { margin-top: 30px;
+	}
+	div.bouton { margin-top: 30px; }
+	label { margin-top: -30px; }
+	.fieldset {
+		display: inline-block;
+	}
+	.form-center {
+	  width: 200px;
+		display: table;
+		margin: auto;
+	}
+	.form-name {
+    	background: rgba(174, 225, 242, 0.4);
+    	height: 130px;
+    	border: 2px solid lightblue;
+    	border-radius: 5px;
+   		margin-bottom: 30px;
+	}
+
+	input:invalid {
+		background-color: #E6A1A1;
+	}
+	input:valid {
+		background-color: #B9EAFA;
+	}
+	.form-email {
+		background: rgba(174, 225, 242, 0.4);
+		height: 50px;
+		border: 2px solid lightblue;
+    	border-radius: 5px;
+    	margin-bottom: 50px;
+	}
+
+	.form-password {
+		background: rgba(174, 225, 242, 0.4);
+		height: 90px;
+		border: 2px solid lightblue;
+    	border-radius: 5px;
+	}
+	.input-validation {
+
+	}
+</style>
+</head>
+<body>
+	<nav>
+		<div align="center"><h1>Pour tout voir... Il faut s'inscrire :</h1></div>
+
+			<div>
+				<div align="center"><h2>INSCRIPTIONS</h2></div>
+				<div class="form-center">
+				<form action="action_page.php">
+
+					<div class="form-name">
+						<label for="firstname">First name:</label>
+			  			<input type="text" name="firstname" placeholder="Mickey">
+
+		  				<label for="lastname">Last name:</label>
+		  				<input type="text" name="lastname" placeholder="Mouse">
+
+		  				<label for="Pseudo">Pseudo:</label>
+		  				<input type="text" name="Pseudo" placeholder="Disney's Pinocchio">
+					</div>
+
+	  				<div class="form-email">
+		  				<label for="email">Email:</label>
+		  				<input type="email" name="email" placeholder="buzz@pixar.com">
+					</div>
+
+					<div class="form-password">
+		  				<label for="password">Password:</label>
+		  				<input type="Password" name="password" value="jaimelanim">
+
+		  				<label for="confirm password">Confirm Password:</label>
+		  				<input type="password" name="confirm password" value="jaimelanim">
+					</div>
+	  				<div class="bouton" align="center"><input type="submit" value="Submit"></div>
+				</form>
+				</div>
+			</div>
+	</nav>
+</body>
+</html>

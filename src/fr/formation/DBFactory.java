@@ -14,7 +14,7 @@ public class DBFactory {
 		try {
 			Class.forName("org.postgresql.Driver");
 			
-				conn= DriverManager.getConnection("jdbc:postgresql://localhost:5432/Wiki", "postgres", "30culi18dico");
+				conn= DriverManager.getConnection("jdbc:postgresql://localhost:5432/WikiAnim", "postgres", "");
 				System.out.println("connected");
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
